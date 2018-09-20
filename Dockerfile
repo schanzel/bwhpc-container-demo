@@ -10,3 +10,9 @@ RUN pip --no-cache-dir install \
       keras==2.1.6 \
       tables==3.4.3
 
+RUN mkdir -p /opt/code
+COPY . /opt/code/
+WORKDIR /opt/code
+
+ENTRYPOINT ["python", "binary_classifier_lstm.py"]
+
