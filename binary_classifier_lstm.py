@@ -81,7 +81,7 @@ if __name__ == '__main__':
                                num_features=shape_train[2],
                                num_layers=2,
                                dropout=.2,
-                               filename='binary_classifier_lstm.h5')
+                               filename='/tmp/binary_classifier_lstm.h5')
 
     hist = net.model.fit(x_train, y_train,
                          batch_size=1,
