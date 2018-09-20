@@ -4,5 +4,7 @@
 #
 
 module load cs/keras/2.1.0-tensorflow-1.4-python-3.5
-python ./work/bwhpc-container-demo/binary_classifier_lstm.py
+
+cd work/bwhpc-container-demo/
+python binary_classifier_lstm.py
 
