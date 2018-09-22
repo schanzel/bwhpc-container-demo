@@ -1,4 +1,4 @@
-##!/usr/bin/env bash
+#!/usr/bin/env bash
 #
 #PBS -N demo_with_modules
 #
