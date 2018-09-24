@@ -1,7 +1,7 @@
 FROM tensorflow/tensorflow:1.8.0-gpu-py3
 
 # Install Keras
-RUN pip --no-cache-dir install \
+RUN pip install \
       keras==2.1.6 \
       h5py==2.8.0
 
